@@ -36,9 +36,16 @@
   <!-- Theme CSS -->
   <link rel="stylesheet" href="assets/css/theme.min.css">
   <style>
+
     @media (max-width: 992px) {
       .logo svg {
         width: 140px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      #services .card {
+        min-height: 420px;
       }
     }
 
@@ -262,29 +269,10 @@
               <div class="card-body p-5">
                 <div class="text-center">
                   <h3 class="mb-2">
-                    <a href="#pc-repair" class="text-inherit">PC & Mac Computers</a>
+                    <a href="#pc-repair" class="text-inherit">Desktop & Laptop Repairs</a>
                   </h3>
-                  <p>Expert repairs for desktops and all-in-ones including hardware upgrades, virus removal, and
+                  <p>Expert repairs for desktops and all-in-ones including data recovary, hardware upgrades, virus removal, and
                     software issues.</p>
-                  <a href="#pc-repair" class="btn-link" aria-label="Learn more about PC and Mac repairs">Learn More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 col-12">
-            <div class="card px-2 pt-2 mb-4 mb-md-0">
-              <a href="#laptop-repair" aria-label="Laptop repair services">
-                <img src="assets/images/service/service-laptop.jpg" alt="Technician repairing a laptop"
-                  class="w-100 img-fluid rounded">
-              </a>
-              <div class="card-body p-5">
-                <div class="text-center">
-                  <h3>
-                    <a href="#laptop-repair" class="text-inherit">Laptop & Macbook Repair</a>
-                  </h3>
-                  <p>Screen replacements, keyboard fixes, battery issues, charging problems and more for all laptop
-                    brands.</p>
-                  <a href="#laptop-repair" class="btn-link" aria-label="Learn more about laptop repairs">Learn More</a>
                 </div>
               </div>
             </div>
@@ -302,8 +290,22 @@
                   </h3>
                   <p>Screen replacements, battery issues, charging ports, water damage and other mobile phone repairs.
                   </p>
-                  <a href="#phone-repair" class="btn-link" aria-label="Learn more about smartphone repairs">Learn
-                    More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-12">
+            <div class="card px-2 pt-2 mb-4 mb-md-0">
+              <a href="#laptop-repair" aria-label="Laptop repair services">
+                <img src="assets/images/service/service-laptop.jpg" alt="Technician repairing a laptop"
+                  class="w-100 img-fluid rounded">
+              </a>
+              <div class="card-body p-5">
+                <div class="text-center">
+                  <h3>
+                    <a href="#laptop-repair" class="text-inherit">Home Loan Services</a>
+                  </h3>
+                  <p>Home Loan at low interest rate.</p>
                 </div>
               </div>
             </div>
@@ -401,243 +403,7 @@
       </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="pb-6 pb-lg-10">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 offset-md-1 col-12">
-            <div class="text-center mb-lg-6 mb-5">
-              <h2 class="mb-2">What Our Customers Say</h2>
-              <p class="mb-0">Read testimonials from our satisfied customers about their repair experiences.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center text-center">
-          <div class="col-lg-6 col-md-12 col-12">
-            <div id="testimonialCarousel" class="carousel slide carousel-button-circle">
-              <div class="carousel-inner pb-14">
-                <div class="carousel-item active">
-                  <div>
-                    <p class="mb-0 lead fst-italic text-dark fw-semibold">"Excellent service! After dropping my iPhone
-                      in water, I thought it was beyond repair. Fixit team repaired it the same day I brought it in. Now
-                      it works perfectly like new."</p>
-                    <div class="mt-6">
-                      <div>
-                        <img src="assets/images/post/testimonial-pic.jpg" alt="Customer Margaret Grimes"
-                          class="rounded-circle">
-                      </div>
-                      <div class="mt-3">
-                        <h3 class="mb-0">Rajesh Kumar</h3>
-                        <small>iPhone Repair Service</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div>
-                    <p class="mb-0 lead fst-italic text-dark fw-semibold">"My laptop screen was broken and I needed it
-                      fixed urgently for work. Fixit replaced the screen quickly at a reasonable price. Highly
-                      recommended!"</p>
-                    <div class="mt-6">
-                      <div>
-                        <img src="assets/images/post/testimonial-pic-2.jpg" alt="Customer Priya Sharma"
-                          class="rounded-circle">
-                      </div>
-                      <div class="mt-3">
-                        <h3 class="mb-0">Priya Sharma</h3>
-                        <small>Laptop Screen Replacement</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div>
-                    <p class="mb-0 lead fst-italic text-dark fw-semibold">"Great experience! The technician explained
-                      everything clearly and fixed my computer's virus issues quickly. Will definitely come back for any
-                      future problems."</p>
-                    <div class="mt-6">
-                      <div>
-                        <img src="assets/images/post/testimonial-pic-3.jpg" alt="Customer Arun Patel"
-                          class="rounded-circle">
-                      </div>
-                      <div class="mt-3">
-                        <h3 class="mb-0">Arun Patel</h3>
-                        <small>Computer Virus Removal</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active bg-dark"
-                  aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"
-                  class="bg-light"></button>
-                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"
-                  class="bg-light"></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Repair Guides Section -->
-    <section class="pb-6 pb-lg-10">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
-            <div class="text-center mb-5 mb-lg-6">
-              <h2 class="mb-2">Device Repair Guides & Tips</h2>
-              <p class="mb-0">Helpful information for maintaining and troubleshooting your devices</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 col-12">
-            <div class="mb-4 mb-lg-0">
-              <div class="position-relative">
-                <a href="#guide1" aria-label="Complete disassembly guide">
-                  <img src="assets/images/post/small-post.jpg" alt="Disassembling a device" class="w-100 mb-5 rounded">
-                </a>
-                <div class="position-absolute bottom-0 start-0 mb-6 ms-3">
-                  <div class="bg-white p-2 text-center rounded">
-                    <h4 class="mb-0 fw-bold">15</h4>
-                    <span>June</span>
-                  </div>
-                </div>
-              </div>
-              <h3 class="mb-3">
-                <a href="#guide1" class="text-inherit">Complete Disassembly & Installation Guides</a>
-              </h3>
-              <div>
-                <div class="border-bottom pb-3 mb-3">
-                  <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
-                      class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
-                      <path
-                        d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
-                      </path>
-                    </svg>
-                    <span class="ms-1">
-                      <a href="#comments1" class="text-inherit">2 Comments</a>
-                    </span>
-                  </span>
-                  <span class="ms-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
-                      class="bi bi-person-fill" viewBox="0 0 16 16">
-                      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
-                    </svg>
-                    <span class="ms-1">
-                      by
-                      <a href="#author1" class="text-inherit">Admin</a>
-                    </span>
-                  </span>
-                </div>
-                <div class="mb-4">
-                  <p>Step-by-step guide to safely disassemble your device for cleaning or component replacement.</p>
-                </div>
-                <a href="#guide1" class="btn btn-primary" aria-label="Read complete disassembly guide">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 col-12">
-            <div class="mb-4 mb-md-0">
-              <div class="position-relative">
-                <a href="#guide2" aria-label="iPad won't turn on troubleshooting">
-                  <img src="assets/images/post/small-post-1.jpg" alt="iPad repair" class="w-100 mb-5 rounded">
-                </a>
-                <div class="position-absolute bottom-0 start-0 mb-6 ms-3">
-                  <div class="bg-white p-2 text-center rounded">
-                    <h4 class="mb-0 fw-bold">14</h4>
-                    <span>June</span>
-                  </div>
-                </div>
-              </div>
-              <h3 class="mb-3">
-                <a href="#guide2" class="text-inherit">iPad Mini Won't Turn On? Troubleshooting Guide</a>
-              </h3>
-              <div>
-                <div class="border-bottom pb-3 mb-3">
-                  <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
-                      class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
-                      <path
-                        d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
-                      </path>
-                    </svg>
-                    <span class="ms-1">
-                      <a href="#comments2" class="text-inherit">5 Comments</a>
-                    </span>
-                  </span>
-                  <span class="ms-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
-                      class="bi bi-person-fill" viewBox="0 0 16 16">
-                      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
-                    </svg>
-                    <span class="ms-1">
-                      by
-                      <a href="#author2" class="text-inherit">Tech Expert</a>
-                    </span>
-                  </span>
-                </div>
-                <div class="mb-4">
-                  <p>Comprehensive troubleshooting steps when your iPad won't power on, including potential causes and
-                    solutions.</p>
-                </div>
-                <a href="#guide2" class="btn btn-primary" aria-label="Read iPad troubleshooting guide">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 col-12">
-            <div class="position-relative">
-              <a href="#guide3" aria-label="Lock button repair after screen replacement">
-                <img src="assets/images/post/small-post-2.jpg" alt="Smartphone repair" class="w-100 mb-5 rounded">
-              </a>
-              <div class="position-absolute bottom-0 start-0 mb-6 ms-3">
-                <div class="bg-white p-2 text-center rounded">
-                  <h4 class="mb-0 fw-bold">13</h4>
-                  <span>June</span>
-                </div>
-              </div>
-            </div>
-            <h3 class="mb-3">
-              <a href="#guide3" class="text-inherit">Fixing Lock Button After Screen Replacement</a>
-            </h3>
-            <div>
-              <div class="border-bottom pb-3 mb-3">
-                <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
-                    class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
-                    <path
-                      d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
-                    </path>
-                  </svg>
-                  <span class="ms-1">
-                    <a href="#comments3" class="text-inherit">3 Comments</a>
-                  </span>
-                </span>
-                <span class="ms-4">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
-                    class="bi bi-person-fill" viewBox="0 0 16 16">
-                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"></path>
-                  </svg>
-                  <span class="ms-1">
-                    by
-                    <a href="#author3" class="text-inherit">Repair Specialist</a>
-                  </span>
-                </span>
-              </div>
-              <div class="mb-4">
-                <p>Common reasons why the lock button may stop working after screen replacement and how to fix it
-                  properly.</p>
-              </div>
-              <a href="#guide3" class="btn btn-primary" aria-label="Read lock button repair guide">Read More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!--contact-->
     <section class="py-lg-10 py-6" id="appointment">
       <div class="container">
@@ -712,11 +478,10 @@
               <h3 class="text-white mb-3 mb-lg-6">Contact Us</h3>
 
               <div class="">
-                <p class="mb-4">Khata No. 7, Survey No. 505/1, 505/2, Kalkere Main Rd, opp. Sunshine School of Music,
+                <p class="mb-4">Kalkere Main Rd,
                   Horamavu, Bengaluru, Karnataka 560043</p>
                 <p class="mb-4">Monday - Sunday : 8am - 10pm</p>
-                <p>Office: 9741756086
-                  <br>
+                <p>
                   Mobile: 9741756086
                 </p>
               </div>
@@ -727,12 +492,12 @@
               <h3 class="text-white mb-3 mb-lg-6">Get Repair Started</h3>
 
               <ul class="list-unstyled lh-lg">
-                <li><a href="#" class="link">PC & MAC Computers</a></li>
-                <li><a href="#" class="link">Laptop Repair</a></li>
-                <li><a href="#" class="link">Smart phone Repair</a></li>
-                <li><a href="#" class="link">Tablet Repair</a></li>
-                <li><a href="#" class="link">Game Console</a></li>
                 <li><a href="#" class="link">Data Recovery</a></li>
+                <li><a href="#" class="link">Desktop & Laptop Repair</a></li>
+                <li><a href="#" class="link">Smart phone Repair</a></li>
+                <li><a href="#" class="link">Hardware Upgrades</a></li>
+                <li><a href="#" class="link">Home Loan Services</a></li>
+                <li><a href="#" class="link">Insurance Services</a></li>
               </ul>
             </div>
           </div>
